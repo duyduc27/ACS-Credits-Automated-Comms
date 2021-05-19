@@ -1,0 +1,7 @@
+%%[
+
+set @regNum = AttributeValue("CustomerAlerts__c:Registered_Vehicle__r:Registration_Number__c")
+
+]%%
+
+Your Accessories Credits for %%=v(@regNum)=%% are expiring in 3 months. Access eShop from myC&C mobile app or via bit.ly/CCSeShop-DS. Use them soon!
