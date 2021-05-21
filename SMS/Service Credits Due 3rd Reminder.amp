@@ -1,0 +1,7 @@
+%%[
+
+set @regNum = AttributeValue("CustomerAlerts__c:Registered_Vehicle__r:Registration_Number__c")
+
+]%%
+
+Your Service Credits for %%=v(@regNum)=%% are expiring in next month. Remember to utilise them! Do not reply to this SMS.
